@@ -12,14 +12,7 @@ public class PacketQueue
 		public int	offset;
 		public int 	size;
 	};
-	
-	// MemoryStream 클래스는 데이터를 끊김 없이 추가할 수 있는 스트림 버퍼로 통신 데이터를 간단하게 다룰 수 있어 편리합니다
-	/// <summary>
-	/// 단, MemoryStream 클래스는 데이터의 끊김이 없으므로 패킷으로는 다룰 수 없습니다. 그래서 큐에 추가하는 패킷의 패킷 크기와 저장 장소를
-	/// 나타내는 오프셋을 구조체(structure)로 만든 패킷정보를 별도로 관리합니다. 패킷 정보는 List 클래스로 관리하고 패킷이 추가되면 리스트의 맨끝에
-	/// 패킷정보를 추가합니다. 큐에서 패킷을 추출할 때는 앞에서부터 가져옵니다. 패킷 정보를 앞에서부터 꺼내고 그 패킷크기만큼의 데이터를 MemoryStream에서 가져옵니다.
-	/// 이 패킷 큐 프로그램은 다음과 같이 구현합니다.
-	/// </summary>
+
 	// 데이터를 보존할 버퍼
 	private MemoryStream 		m_streamBuffer;
 	

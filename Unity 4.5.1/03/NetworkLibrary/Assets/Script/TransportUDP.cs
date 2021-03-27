@@ -88,7 +88,6 @@ public class TransportUDP : MonoBehaviour {
 
         return LaunchThread();
     }
-
 	// 대기 종료 .
     public void StopServer()
     {

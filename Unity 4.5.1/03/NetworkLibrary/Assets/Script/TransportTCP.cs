@@ -262,6 +262,15 @@ public class TransportTCP : MonoBehaviour {
 			m_socket = m_listener.Accept();
 			m_isConnected = true;
 			Debug.Log("Connected from client.");
+
+			// 이벤트를 알린다
+			if(m_handler != null)
+            {
+				NetEventState state = new NetEventState();
+				state.type = NetEventType.Connect;
+				state.result = NetEventResult.Success;
+				m_handler(state);
+            }
 		}
 	}
 

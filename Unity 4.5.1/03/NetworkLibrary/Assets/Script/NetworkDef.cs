@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 // 이벤트 종류.
 public enum NetEventType 
 {

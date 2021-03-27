@@ -1,0 +1,38 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 27.21.14.5671]
+    Renderer: NVIDIA GeForce GTX 1060 6GB
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\C#공부중\UnityNetwork\Unity 4.5.1\03\SocketSample\bin\SocketSampleTCP_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\C#공부중\UnityNetwork\Unity 4.5.1\03\SocketSample\bin\SocketSampleTCP_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\C#공부중\UnityNetwork\Unity 4.5.1\03\SocketSample\bin\SocketSampleTCP_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\C#공부중\UnityNetwork\Unity 4.5.1\03\SocketSample\bin\SocketSampleTCP_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+desktop: 1920x1080 144Hz; virtual: 3840x1081 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: D:\C#공부중\UnityNetwork\Unity 4.5.1\03\SocketSample\bin\SocketSampleTCP_Data\Managed\System.dll (this message is harmless)
+DESKTOP-TCP9K0Q
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Start server communication.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[TCP]Connected from client.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+Hello, this is client.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+
+[TCP]End server communication.
+ 
+(Filename: C:/BuildAgent/work/d3d49558e4d408f4/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 53)
+

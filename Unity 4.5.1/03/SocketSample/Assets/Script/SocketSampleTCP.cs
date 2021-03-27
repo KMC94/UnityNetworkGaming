@@ -74,6 +74,7 @@ public class SocketSampleTCP : MonoBehaviour
 		}
 	}
 
+	// TCP 서버에 접속
 	// 대기 시작.
 	void StartListener()
 	{
@@ -89,6 +90,7 @@ public class SocketSampleTCP : MonoBehaviour
 		m_state = State.AcceptClient;
 	}
 
+	// 클라이언트의 접속 요청을 접수
 	// 클라이언트의 접속 대기.
 	void AcceptClient()
 	{
@@ -100,6 +102,7 @@ public class SocketSampleTCP : MonoBehaviour
 		}
 	}
 
+	// TCP 수신
 	// 클라이언트의 메시지 수신.
 	void ServerCommunication()
 	{
@@ -112,6 +115,7 @@ public class SocketSampleTCP : MonoBehaviour
 		}
 	}
 
+	// TCP 대기 상태 종료
 	// 대기 종료.
 	void StopListener()
 	{	
@@ -126,6 +130,7 @@ public class SocketSampleTCP : MonoBehaviour
 		Debug.Log("[TCP]End server communication.");
 	}
 
+	// TCP 서버로 접속
 	// 클라이언트와의 접속, 송신, 접속해제.
 	void ClientProcess()
 	{
@@ -137,6 +142,7 @@ public class SocketSampleTCP : MonoBehaviour
 		m_socket.SendBufferSize = 0;
 		m_socket.Connect(m_address, m_port);
 
+		// TCP 송신
 		// 메시지 송신.
 		byte[] buffer = System.Text.Encoding.UTF8.GetBytes("Hello, this is client.");	
 		m_socket.Send(buffer, buffer.Length, SocketFlags.None);

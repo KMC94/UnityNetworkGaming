@@ -110,6 +110,7 @@ public class SocketSampleUDP : MonoBehaviour
 		Debug.Log("[UDP]End communication.");
 	}
 
+	// UDP 송수신
 	// 클라이언트와의 접속, 송신, 접속 종료.
 	void SendMessage()
 	{
